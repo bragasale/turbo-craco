@@ -16,7 +16,7 @@ request(url , function(err, response, html){
                         flight:$('#tableGrid').find('tbody').children().eq(index).children().eq(2).find('span').text(),
                         from:$('#tableGrid').find('tbody').children().eq(index).children().eq(3).text(),
                         scheduletime:$('#tableGrid').find('tbody').children().eq(index).children().eq(4).text(),
-                        atualtima:$('#tableGrid').find('tbody').children().eq(index).children().eq(5).text(),
+                        atualtime:$('#tableGrid').find('tbody').children().eq(index).children().eq(5).text(),
                         status:$('#tableGrid').find('tbody').children().eq(index).children().eq(6).text()
         })
         })
